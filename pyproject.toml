@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pyn-elite"
+version = "0.1.0"
+description = ""
+authors = ["None"]
+readme = "README.md"
+packages = [{include = "pyn_elite"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipykernel = "^6.19.2"
+jupyter = "^1.0.0"
+notebook = "^6.5.2"
+pandas = "^1.5.2"
+plotnine = "^0.10.1"
+yfinance = "^0.1.90"
+openpyxl = "^3.0.10"
+pandas-datareader = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
